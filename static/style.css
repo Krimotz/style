@@ -29,10 +29,11 @@ body {
     background: #1e1e1e;
 }
 /* Mobile styles */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     body {
         padding: 20px;
         font-size: 1.25rem;
+        background-color: lightyellow !important;
     }
 
     .container {
