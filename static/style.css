@@ -28,3 +28,43 @@ body {
 .button:hover {
     background: #1e1e1e;
 }
+/* Mobile styles */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+        font-size: 1.25rem;
+    }
+
+    .container {
+        padding: 20px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .button {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 16px;
+        font-size: 1.2rem;
+        background-color: #2f4f4f;
+        text-align: center;
+        z-index: 100;
+    }
+
+    .button:hover {
+        background-color: #1e1e1e;
+    }
+}
